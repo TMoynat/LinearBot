@@ -1,0 +1,12 @@
+parser: "@typescript-eslint/parser"
+
+parserOptions:
+  ecmaVersion: 6
+  project: tsconfig.json
+
+env:
+  node: true
+
+extends:
+  - airbnb-typescript/base
+  - plugin:@typescript-eslint/recommended
